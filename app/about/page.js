@@ -1,9 +1,14 @@
 import React from 'react'
+import AboutFirstSection from '../components/aboutComponents/AboutFirstSection'
+import AboutSecondSection from '../components/aboutComponents/AboutSecondSection'
+import AboutThirdSection from '../components/aboutComponents/AboutThirdSection'
 
 const About = () => {
   return (
     <div>
-      <h1>About page</h1>
+      <AboutFirstSection />
+      <AboutSecondSection />
+      <AboutThirdSection />
     </div>
   )
 }

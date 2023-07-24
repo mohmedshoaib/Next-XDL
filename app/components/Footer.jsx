@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className='bg-white text-black flex ed:flex-col'>
+    <div className='bg-blue-500 text-white flex ed:flex-col'>
 
         <div className='max-w-[800px] mt-[20px] w-full h-[60vh] text-center mx-auto flex flex-col'>
               <div className='flex py-[20px] justify-between'>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <div className='pl-[60px] pr-[162px] pb-10 text-left'>
                         <ul>
                             <li>ControlPay</li>
-                            <li>The Netherlands</li>
+                            <li>The Canada</li>
                             <li className='font-semibold'>+31 00000 11111</li>
                             <li className='font-semibold'>info@datalogix.com</li>
                         </ul>
